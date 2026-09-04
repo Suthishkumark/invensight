@@ -6,3 +6,4 @@ pyspark
 bcrypt>=4.0.0
 matplotlib
 plotly
+pyyaml
