@@ -1,0 +1,88 @@
+# ================================================================================
+# InvenSight Business Profiles
+# ================================================================================
+
+profiles:
+
+  general:
+    name: "General Retail"
+    icon: "🏪"
+    description: "Generic retail store with mixed product categories."
+    currency_symbol: "$"
+    labels:
+      product: "Product"
+      products: "Products"
+      store: "Store"
+      stores: "Stores"
+      category: "Category"
+      units: "Units"
+      inventory: "Inventory"
+      revenue: "Revenue"
+    typical_categories:
+      - Electronics
+      - Clothing
+      - Food & Beverage
+      - Home & Garden
+      - Sports
+    optional_columns_recommended:
+      - region
+      - weather_condition
+      - seasonality
+      - holiday_promotion
+      - competitor_pricing
+
+  grocery:
+    name: "Grocery / Supermarket"
+    icon: "🛒"
+    description: "Fresh produce, packaged foods, beverages, and daily essentials."
+    currency_symbol: "$"
+    labels:
+      product: "Product"
+      products: "Products"
+      store: "Store"
+      stores: "Stores"
+      category: "Aisle / Category"
+      units: "Units"
+      inventory: "Stock on Shelf"
+      revenue: "Sales Revenue"
+    typical_categories:
+      - Fresh Produce
+      - Dairy & Eggs
+      - Meat & Seafood
+      - Snacks & Beverages
+      - Frozen Foods
+      - Household Goods
+    optional_columns_recommended:
+      - weather_condition
+      - holiday_promotion
+      - seasonality
+      - units_ordered
+      - region
+
+  electronics:
+    name: "Electronics Store"
+    icon: "📱"
+    description: "Consumer electronics, gadgets, accessories, and appliances."
+    currency_symbol: "$"
+    labels:
+      product: "SKU"
+      products: "SKUs"
+      store: "Store"
+      stores: "Stores"
+      category: "Product Category"
+      units: "Units"
+      inventory: "Stock"
+      revenue: "Sales Revenue"
+    typical_categories:
+      - Smartphones
+      - Laptops & Computers
+      - Audio & Headphones
+      - Cameras
+      - Home Appliances
+      - Gaming
+      - Accessories
+    optional_columns_recommended:
+      - competitor_pricing
+      - region
+      - seasonality
+      - holiday_promotion

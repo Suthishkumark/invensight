@@ -1,0 +1,29 @@
+business:
+  name: "Stock Prediction 📈"
+  type: "general"           # Options: general, bakery, pharmacy, department_store,
+                            #          grocery, electronics, restaurant, hardware
+  currency_symbol: "$"      # e.g. "$", "₹", "£", "€"
+
+source:
+  file: "Data/retail_store.csv"
+  date_format: "dd-MM-yyyy"
+
+columns:
+  # Required mappings (your CSV column name → leave blank to mark as missing)
+  date: "Date"
+  store_id: "Store ID"
+  product_id: "Product ID"
+  category: "Category"
+  inventory_level: "Inventory Level"
+  units_sold: "Units Sold"
+  demand_forecast: "Demand Forecast"
+  price: "Price"
+  discount: "Discount"
+
+  # Optional mappings (set to null if your data doesn't have these)
+  region: "Region"
+  units_ordered: "Units Ordered"
+  weather_condition: "Weather Condition"
+  holiday_promotion: "Holiday/Promotion"
+  competitor_pricing: "Competitor Pricing"
+  seasonality: "Seasonality"
